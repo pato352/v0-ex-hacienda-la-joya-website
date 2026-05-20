@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { Menu, X, Phone, Mail, MapPin, ChevronDown, Instagram, Facebook } from "lucide-react"
+import { Menu, X, Phone, Mail, MapPin, ChevronDown, Facebook } from "lucide-react"
 
 const navLinks = [
   { href: "#inicio", label: "Inicio" },
@@ -430,16 +430,12 @@ export default function HaciendaLaJoya() {
               
               <div className="flex gap-4 mt-8">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/ExHdaLaJoya/?locale=es_LA"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
                 >
                   <Facebook className="w-5 h-5" />
-                </a>
-                <a
-                  href="#"
-                  className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                >
-                  <Instagram className="w-5 h-5" />
                 </a>
               </div>
             </div>
@@ -455,7 +451,7 @@ export default function HaciendaLaJoya() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
               <div className="absolute bottom-6 left-6 right-6">
                 <Link
-                  href="https://maps.google.com/?q=Blvd+Aristóteles+1961+León+Guanajuato"
+                  href="https://www.google.com/maps/search/?api=1&query=Blvd.+Aristóteles+1961+Col+Ejido+la+Joya+37178+León+de+los+Aldama+Gto"
                   target="_blank"
                   className="inline-flex items-center gap-2 bg-white/90 text-foreground px-6 py-3 rounded-full hover:bg-white transition-colors"
                 >
@@ -500,16 +496,12 @@ export default function HaciendaLaJoya() {
             
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://www.facebook.com/ExHdaLaJoya/?locale=es_LA"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 border border-background/30 rounded-full flex items-center justify-center text-background/70 hover:bg-background hover:text-foreground transition-all duration-300"
               >
                 <Facebook className="w-4 h-4" />
-              </a>
-              <a
-                href="#"
-                className="w-10 h-10 border border-background/30 rounded-full flex items-center justify-center text-background/70 hover:bg-background hover:text-foreground transition-all duration-300"
-              >
-                <Instagram className="w-4 h-4" />
               </a>
             </div>
           </div>
